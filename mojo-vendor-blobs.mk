@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/madcatz/mojo/proprietary/bin/mft_data:system/bin/mft_data \
     vendor/madcatz/mojo/proprietary/bin/wbtmiscwriter.sh:system/bin/wbtmiscwriter.sh \
+    vendor/madcatz/mojo/proprietary/bin/nvcgcserver:system/bin/nvcgcserver \
     vendor/madcatz/mojo/proprietary/etc/firmware/bcm43241.hcd:system/etc/firmware/bcm43241.hcd \
     vendor/madcatz/mojo/proprietary/etc/nvram_43241.txt:system/etc/nvram_43241.txt \
     vendor/madcatz/mojo/proprietary/vendor/firmware/bcm43241/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm43241/fw_bcmdhd_apsta.bin \
