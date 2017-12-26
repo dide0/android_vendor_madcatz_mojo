@@ -16,11 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-    vendor/madcatz/mojo/proprietary/bin/wifi_loader.sh:system/bin/wifi_loader.sh \
-    vendor/madcatz/mojo/proprietary/bin/nvram_JP01_43241.txt:system/etc/nvram_JP01_43241.txt \
-    vendor/madcatz/mojo/proprietary/bin/nvram_JP01_43241.txt:system/etc/nvram_US39_43241.txt \
-    vendor/madcatz/mojo/proprietary/bin/nvram_JP01_43241.txt:system/etc/nvram_XV01_43241.txt \
-    vendor/madcatz/mojo/proprietary/bin/ethernet_loader.sh:system/bin/ethernet_loader.sh \
     vendor/madcatz/mojo/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
     vendor/madcatz/mojo/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
     vendor/madcatz/mojo/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
@@ -115,6 +110,9 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/vendor/lib/libgov_gpufs.so:system/vendor/lib/libgov_gpufs.so \
     vendor/madcatz/mojo/proprietary/vendor/lib/libgov_tbc.so:system/vendor/lib/libgov_tbc.so \
     vendor/madcatz/mojo/proprietary/vendor/lib/libussrd.so:system/vendor/lib/libussrd.so \
+    vendor/madcatz/mojo/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+    vendor/madcatz/mojo/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
+    vendor/madcatz/mojo/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
     vendor/madcatz/mojo/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/madcatz/mojo/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/madcatz/mojo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
