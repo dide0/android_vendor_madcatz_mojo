@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/madcatz/mojo/proprietary/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
     vendor/madcatz/mojo/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/madcatz/mojo/proprietary/lib/libDxDrmServer.so:system/lib/libDxDrmServer.so \
     vendor/madcatz/mojo/proprietary/lib/libEGL_tegra_impl.so:system/lib/libEGL_tegra_impl.so \
     vendor/madcatz/mojo/proprietary/lib/libGLESv1_CM_tegra_impl.so:system/lib/libGLESv1_CM_tegra_impl.so \
     vendor/madcatz/mojo/proprietary/lib/libGLESv2_tegra_impl.so:system/lib/libGLESv2_tegra_impl.so \
@@ -112,8 +113,8 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/vendor/firmware/bcm43241/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm43241/fw_bcmdhd_apsta.bin \
     vendor/madcatz/mojo/proprietary/vendor/firmware/bcm43241/fw_bcmdhd.bin:system/vendor/firmware/bcm43241/fw_bcmdhd.bin \
     vendor/madcatz/mojo/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/madcatz/mojo/proprietary/vendor/lib/hw/power.mojo.so:system/vendor/lib/hw/power.mojo.so \
     vendor/madcatz/mojo/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/madcatz/mojo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/madcatz/mojo/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/madcatz/mojo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/madcatz/mojo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/madcatz/mojo/proprietary/vendor/lib/mediadrm/libDxModularPluginNv.so:system/vendor/lib/mediadrm/libDxModularPluginNv.so
