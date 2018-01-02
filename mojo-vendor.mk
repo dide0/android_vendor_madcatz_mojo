@@ -16,13 +16,15 @@
 
 $(call inherit-product, vendor/madcatz/mojo/mojo-vendor-blobs.mk)
 
-# ATV
 PRODUCT_PACKAGES += \
+    libnvos \
     LeanbackIme \
     com.google.widevine.software.drm \
     com.google.android.pano.v1 \
     AtvRemoteService \
+    GamepadPairingService \
     GlobalKeyInterceptor \
     LeanbackLauncher \
+    Overscan \
     RemoteControlService \
     TV
