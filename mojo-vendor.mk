@@ -17,7 +17,6 @@
 $(call inherit-product, vendor/madcatz/mojo/mojo-vendor-blobs.mk)
 
 PRODUCT_PACKAGES += \
-    libnvos \
     LeanbackIme \
     com.google.widevine.software.drm \
     com.google.android.pano.v1 \

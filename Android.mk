@@ -17,16 +17,6 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),mojo)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libnvos
-LOCAL_SRC_FILES := proprietary/lib/libnvos.so
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := LeanbackIme
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/app/LeanbackIme/LeanbackIme.apk
