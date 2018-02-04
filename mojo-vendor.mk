@@ -16,10 +16,18 @@
 
 $(call inherit-product, vendor/madcatz/mojo/mojo-vendor-blobs.mk)
 
+# Prebuilt APKs
 PRODUCT_PACKAGES += \
-    LeanbackIme \
+    CanvasPackageInstaller \
+    LeanbackIme 
+
+# Prebuilt jars
+PRODUCT_PACKAGES += \
     com.google.widevine.software.drm \
-    com.google.android.pano.v1 \
+    com.google.android.pano.v1
+
+# Prebuilt privileged APKs
+PRODUCT_PACKAGES += \
     AtvRemoteService \
     GamepadPairingService \
     GlobalKeyInterceptor \
@@ -27,3 +35,4 @@ PRODUCT_PACKAGES += \
     Overscan \
     RemoteControlService \
     TV
+
