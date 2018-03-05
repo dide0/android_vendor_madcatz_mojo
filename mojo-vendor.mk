@@ -26,6 +26,10 @@ PRODUCT_PACKAGES += \
     com.google.widevine.software.drm \
     com.google.android.pano.v1
 
+# Prebuilt libs
+PRODUCT_PACKAGES += \
+    libnvos
+
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
     AtvRemoteService \
@@ -35,4 +39,6 @@ PRODUCT_PACKAGES += \
     Overscan \
     RemoteControlService \
     TV
+
+
 
