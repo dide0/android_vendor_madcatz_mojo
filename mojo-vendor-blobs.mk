@@ -28,9 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/bin/input_cfboost_init.sh:system/bin/input_cfboost_init.sh \
     vendor/madcatz/mojo/proprietary/bin/mft_data:system/bin/mft_data \
     vendor/madcatz/mojo/proprietary/bin/nvcgcserver:system/bin/nvcgcserver \
-    vendor/madcatz/mojo/proprietary/bin/nvcpud:system/bin/nvcpud \
     vendor/madcatz/mojo/proprietary/bin/nv_hciattach:system/bin/nv_hciattach \
-    vendor/madcatz/mojo/proprietary/bin/powerservice:system/bin/powerservice \
     vendor/madcatz/mojo/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/madcatz/mojo/proprietary/bin/usdwatchdog:system/bin/usdwatchdog \
     vendor/madcatz/mojo/proprietary/bin/ussrd:system/bin/ussrd \
@@ -45,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
     vendor/madcatz/mojo/proprietary/etc/firmware/tegra11x/nvhost_msenc02.fw:system/etc/firmware/tegra11x/nvhost_msenc02.fw \
     vendor/madcatz/mojo/proprietary/etc/firmware/tegra11x/nvhost_tsec.fw:system/etc/firmware/tegra11x/nvhost_tsec.fw \
-    vendor/madcatz/mojo/proprietary/etc/nvcpud.conf:system/etc/nvcpud.conf \
     vendor/madcatz/mojo/proprietary/etc/nvram_43241.txt:system/etc/nvram_43241.txt \
     vendor/madcatz/mojo/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/madcatz/mojo/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
@@ -61,21 +58,12 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/libEGL_tegra_impl.so:system/lib/libEGL_tegra_impl.so \
     vendor/madcatz/mojo/proprietary/lib/libGLESv1_CM_tegra_impl.so:system/lib/libGLESv1_CM_tegra_impl.so \
     vendor/madcatz/mojo/proprietary/lib/libGLESv2_tegra_impl.so:system/lib/libGLESv2_tegra_impl.so \
-    vendor/madcatz/mojo/proprietary/lib/libgov_combinator.so:system/lib/libgov_combinator.so \
-    vendor/madcatz/mojo/proprietary/lib/libgov_cores.so:system/lib/libgov_cores.so \
-    vendor/madcatz/mojo/proprietary/lib/libgov_cpufs.so:system/lib/libgov_cpufs.so \
-    vendor/madcatz/mojo/proprietary/lib/libgov_gpufs.so:system/lib/libgov_gpufs.so \
-    vendor/madcatz/mojo/proprietary/lib/libgov_tbc.so:system/lib/libgov_tbc.so \
     vendor/madcatz/mojo/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
     vendor/madcatz/mojo/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
     vendor/madcatz/mojo/proprietary/lib/libnvblit.so:system/lib/libnvblit.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvcapaudioservice.so:system/lib/libnvcapaudioservice.so \
     vendor/madcatz/mojo/proprietary/lib/libnvcapclk.so:system/lib/libnvcapclk.so \
     vendor/madcatz/mojo/proprietary/lib/libnvcms.so:system/lib/libnvcms.so \
     vendor/madcatz/mojo/proprietary/lib/libnvcpl.so:system/lib/libnvcpl.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvcpud_client.so:system/lib/libnvcpud_client.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvcpud.so:system/lib/libnvcpud.so \
     vendor/madcatz/mojo/proprietary/lib/libnvddk_2d.so:system/lib/libnvddk_2d.so \
     vendor/madcatz/mojo/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
     vendor/madcatz/mojo/proprietary/lib/libnvfusebypass.so:system/lib/libnvfusebypass.so \
@@ -109,8 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/libnvtvmr.so:system/lib/libnvtvmr.so \
     vendor/madcatz/mojo/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
     vendor/madcatz/mojo/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
-    vendor/madcatz/mojo/proprietary/lib/libpowerservice_client.so:system/lib/libpowerservice_client.so \
-    vendor/madcatz/mojo/proprietary/lib/libpowerservice.so:system/lib/libpowerservice.so \
     vendor/madcatz/mojo/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/madcatz/mojo/proprietary/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
     vendor/madcatz/mojo/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
