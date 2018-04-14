@@ -22,15 +22,7 @@
 
 
 PRODUCT_COPY_FILES += \
-    vendor/madcatz/mojo/proprietary/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \
-    vendor/madcatz/mojo/proprietary/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml \
-    vendor/madcatz/mojo/proprietary/media/audio/ui/pano_blip_alt.ogg:system/media/audio/ui/pano_blip_alt.ogg \
-    vendor/madcatz/mojo/proprietary/media/audio/ui/pano_error.ogg:system/media/audio/ui/pano_error.ogg \
-    vendor/madcatz/mojo/proprietary/media/audio/ui/pano_click.ogg:system/media/audio/ui/pano_click.ogg \
-    vendor/madcatz/mojo/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/madcatz/mojo/proprietary/etc/permissions/nrdp.xml:system/etc/permissions/nrdp.xml \
-    vendor/madcatz/mojo/proprietary/etc/permissions/com.google.android.pano.v1.xml:system/etc/permissions/com.google.android.pano.v1.xml \
-    vendor/madcatz/mojo/proprietary/lib/libatv_uinputbridge.so:system/priv-app/AtvRemoteService/lib/arm/libatv_uinputbridge.so \
     vendor/madcatz/mojo/proprietary/bin/input_cfboost_init.sh:system/bin/input_cfboost_init.sh \
     vendor/madcatz/mojo/proprietary/bin/mft_data:system/bin/mft_data \
     vendor/madcatz/mojo/proprietary/bin/nvcgcserver:system/bin/nvcgcserver \
